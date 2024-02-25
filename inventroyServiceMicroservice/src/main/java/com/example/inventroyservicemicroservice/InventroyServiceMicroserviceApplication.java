@@ -22,7 +22,7 @@ public class InventroyServiceMicroserviceApplication {
             inventory.setQuantity(100);
 
             Inventory inventory1 = new Inventory();
-            inventory1.setSkuCode("iphone_red");
+            inventory1.setSkuCode("iphone_13_red");
             inventory1.setQuantity(0);
 
             inventoryRepository.save(inventory);
